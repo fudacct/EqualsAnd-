@@ -51,7 +51,7 @@ namespace Equalsand__
             var testv2 = new TestEntity2(1, "1");
             Console.WriteLine(string.Format("testv == testv2:{0}", testv == testv2));//False
             Console.WriteLine(string.Format("testv Equals testv2:{0}\r\n", testv.Equals(testv2)));//False
-            //匿名类Equals笔记俩个对象的状态，对象值都相同则返回true;==比较对象的引用
+            //匿名类==比价引用，Equals比较值；匿名类Equals笔记俩个对象的状态，对象值都相同则返回true;==比较对象的引用
             var testv3 = new { ia = 1, stra = "1" };
             var testv4 = new { ia = 1, stra = "1" };
             var testv5 = testv3;
